@@ -112,7 +112,7 @@ adapters:
 | Phase 1 – Adapter‑SDK & FoxESS H3 (RO) | 14           | SDK‑Interfaces & Helpers; H3‑Adapter; Polling‑Loop; 24h Stabilität                     |
 | Phase 2 – Transport & Backend          | 10           | MQTT/TLS; Ingestion‑Service; Timescale‑Schema; Basis‑API                               |
 | Phase 3 – Dashboards & Alpha           | 7            | Grafana‑Dashboards; Install‑Guides; Feinschliff/Docs; Alpha‑Tag                        |
-
+| Phase 4 – Controling                   | 14           | Kontrolieren eines bzw mehrerer Anlagen                                                |
 ---
 
 ## 9) Meilensteine
@@ -121,6 +121,9 @@ adapters:
 * **M2:** H3‑Adapter: ≥95 % Kern‑Messwerte; 24h Dauerlauf → *Go*.
 * **M3:** Datenfluss Edge→Backend→TS‑DB → *Go*.
 * **Alpha:** Dashboards + Install‑Docs; SemVer eingeführt.
+* **M1:** Einstellungen in Anlagen Schreiben (Edge Only)
+* **M2:** Einstellungen von Backend → Edge
+* **Alpha 2:** Im Kern funktionierendes Energiemanagement
 
 ---
 
